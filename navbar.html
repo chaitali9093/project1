@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="nav_content">
+            <div class="logopart">
+              <div class="logoimg">
+                <figure>
+                  <img src="./images/logo.avif" alt="logo" />
+                </figure>
+              </div>
+              <div class="nav_text">
+                <h1 class="title">
+                  <a href="">
+                    <span class="wh">wh</span>
+                    <span class="im">im</span>
+                    <span class="sy">sy</span>
+                  </a>
+                </h1>
+              </div>
+            </div>
+            <div class="toggler" id="toggler">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="nav_items" id="nav_link">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- form -->
+    <main>
+        <section class="formpart">
+            <div class="container">
+              <form action="">
+                <label for="name">Fullname:</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Enter your fullname"
+                />
+                <p id="nameError" class="error"></p>
+                <label for="mail">Email:</label>
+                <input
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  placeholder="Enter your email"
+                />
+                <p id="mailError" class="error"></p>
+                <label for="name">Password:</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Enter your password"
+                />
+                <p id="passwordError" class="error"></p>
+                <label for="name">Confirm password:</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="confirmpassword"
+                  placeholder="Enter your confirm password"
+                />
+                <p id="confirmpasswordError" class="error"></p>
+                <input type="submit" value="submit">
+              </form>
+            </div>
+          </section>
+    </main>
+    <script src="/js/navbar.js"></script>
+  </body>
+</html>
